@@ -1,0 +1,25 @@
+$kind: http-request
+name: http://127.0.0.1:8000/api/admin/stations
+url: http://127.0.0.1:8000/api/admin/stations
+method: POST
+headers:
+  Authorization: Bearer 2|fyfUlHMV5pKlFPJxTIXevuHLWhltIKVi94nL2QN9b23c3ff7
+  Accept: application/json
+body:
+  type: json
+  content: "{\r
+
+    \    \"name\": \"Station 1\",\r
+
+    \    \"latitude\": 34.020882,\r
+
+    \    \"longitude\": -6.841650,\r
+
+    \    \"address\": \"Rabat, Maroc\",\r
+
+    \    \"connector_type\": \"Type2\",\r
+
+    \    \"power_kw\": 22.0\r
+
+    }"
+order: 4490305557969579

@@ -1,0 +1,10 @@
+$kind: http-request
+name: http://127.0.0.1:8000/api/reservations/1/cancel
+url: http://127.0.0.1:8000/api/reservations/1/cancel
+method: POST
+headers:
+  Authorization: Bearer 4|L1lyE0S011hgAvSZpkhhH8CtToCmZAWId3crgM8A84c42e45
+body:
+  type: json
+  content: ""
+order: 4503458988818822

@@ -1,0 +1,7 @@
+$kind: http-request
+name: http://127.0.0.1:8000/api/admin/dashboard
+url: http://127.0.0.1:8000/api/admin/dashboard
+method: GET
+headers:
+  Authorization: Bearer 2|fyfUlHMV5pKlFPJxTIXevuHLWhltIKVi94nL2QN9b23c3ff7
+order: 4503581110975709

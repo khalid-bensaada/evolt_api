@@ -1,0 +1,7 @@
+$kind: http-request
+name: http://127.0.0.1:8000/api/admin/statistics
+url: http://127.0.0.1:8000/api/admin/statistics
+method: GET
+headers:
+  Authorization: Bearer 2|fyfUlHMV5pKlFPJxTIXevuHLWhltIKVi94nL2QN9b23c3ff7
+order: 4503550546444486

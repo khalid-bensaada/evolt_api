@@ -1,0 +1,19 @@
+$kind: http-request
+name: http://127.0.0.1:8000/api/reservations
+url: http://127.0.0.1:8000/api/reservations
+method: POST
+headers:
+  Authorization: Bearer 4|L1lyE0S011hgAvSZpkhhH8CtToCmZAWId3crgM8A84c42e45
+  Accept: application/json
+body:
+  type: json
+  content: "{\r
+
+    \    \"charging_station_id\": 1,\r
+
+    \    \"start_time\": \"2026-03-12 10:00:00\",\r
+
+    \    \"duration\": 60\r
+
+    }"
+order: 4503367798490828
