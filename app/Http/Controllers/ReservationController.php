@@ -35,7 +35,7 @@ class ReservationController extends Controller
             'start_time'          => $request->start_time,
             'duration'            => $request->duration,
             'end_time'            => $endTime,
-            'status'              => 'en_cours', // ← تلقائي
+            'status'              => 'en_cours',
         ]);
 
         $station->update(['is_available' => false]);
